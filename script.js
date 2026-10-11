@@ -196,11 +196,38 @@
     $("#contact-action-label").textContent = "Open email draft";
     $("#form-note").textContent = "Opens a draft in your email app. You review and send it yourself. This website does not store your information.";
   }
+  if (content.web3formsKey) {
+    $("#contact-action-label").textContent = "Send message";
+    $("#form-note").textContent = "Your message is emailed directly to the Kaduna.lk research team.";
+  }
   $("#contact-form").addEventListener("submit", async event => {
     event.preventDefault();
-    const values = new FormData(event.currentTarget);
+    const form = event.currentTarget;
+    const values = new FormData(form);
     const subject = `Kaduna.lk research enquiry: ${values.get("interest")}`;
     const body = `Hello Kaduna.lk research team,\n\n${String(values.get("message")).trim()}\n\nName: ${String(values.get("name")).trim()}\nEmail: ${String(values.get("email")).trim()}\nArea of interest: ${values.get("interest")}\n\nProject: R26-SE-026`;
+    if (content.web3formsKey) {
+      const button = $("button[type=submit]", form);
+      button.disabled = true;
+      $("#form-feedback").textContent = "Sending…";
+      try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify({ access_key: content.web3formsKey, subject, from_name: "Kaduna.lk website", name: values.get("name"), email: values.get("email"), replyto: values.get("email"), interest: values.get("interest"), message: values.get("message"), botcheck: values.get("botcheck") ? true : "" })
+        });
+        const result = await response.json();
+        if (!result.success) throw new Error(result.message);
+        form.reset();
+        $("#form-feedback").textContent = "Thank you. Your message has been sent to the Kaduna.lk team.";
+        return;
+      } catch {
+        $("#form-feedback").textContent = contactLink ? "The message could not be sent. Opening an email draft instead." : "The message could not be sent. Please try again later.";
+        if (!contactLink) return;
+      } finally {
+        button.disabled = false;
+      }
+    }
     if (contactLink) {
       location.href = `${contactLink}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       $("#form-feedback").textContent = "An email draft has been requested in your email app. Review it before sending.";
