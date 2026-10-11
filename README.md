@@ -24,7 +24,7 @@ styles.css       Visual design and responsive layouts
 content.js       Editable research, timeline, document, and team data
 script.js        Navigation, research tabs, filters, dialogs, and enquiry composer
 assets/          Images, portraits, local font, and font license
-documents/       Four proposal PDFs and two presentation PDFs
+documents/       Topic assessment, four proposals, two research papers, three presentation PDFs
 scripts/serve.mjs Local preview server
 ```
 
@@ -48,7 +48,7 @@ The header, overview, supervisors, contact location, and footer are in **`index.
 
 - Team and supervisor email addresses; a general contact email and optional phone number.
 - Assessment mark allocations and actual completion or submission status. The 13 deadline dates now come from the supplied 2026 RP project timeline. Dates shown on document cards describe the materials rather than submission timestamps.
-- Project charter, completed checklists, research paper, approved final reports, poster, Progress Presentation II, and final presentation.
+- Project charter, completed checklists, geo-intelligence and predictive-maintenance research papers, approved final reports, poster, and final presentation.
 - Final evaluation results, supervisor portraits, optional demo video, and any app-store links.
 
 Pending materials are marked as coming soon. Final reports should be linked after they are reviewed and ready for sharing.

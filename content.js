@@ -49,7 +49,7 @@ window.SITE_CONTENT = {
     { id: "proposal-presentation", title: "Proposal presentation", date: "16–18 March 2026", startDate: "2026-03-16", endDate: "2026-03-18", group: "March", description: "Present the research direction and the proposed contributions of the four components.", marks: null, file: "documents/proposal-presentation.pdf", linkLabel: "View presentation" },
     { id: "progress-1", title: "Progress Presentation I", date: "11–13 May 2026", startDate: "2026-05-11", endDate: "2026-05-13", group: "May", description: "Demonstrate prototype progress, addressed requirements, design contributions, and early feedback.", marks: null, file: "documents/progress-presentation-1.pdf", linkLabel: "View presentation" },
     { id: "checklist", title: "Checklist submission", date: "13 May 2026", startDate: "2026-05-13", endDate: "2026-05-13", group: "May", description: "Submit the assessment checklist and the required supporting project records.", marks: null },
-    { id: "progress-2", title: "Progress Presentation II", date: "31 August–2 September 2026", startDate: "2026-08-31", endDate: "2026-09-02", group: "August – September", description: "Present further implementation, integration progress, and evaluation of the research components.", marks: null },
+    { id: "progress-2", title: "Progress Presentation II", date: "31 August–2 September 2026", startDate: "2026-08-31", endDate: "2026-09-02", group: "August – September", description: "Present further implementation, integration progress, and evaluation of the research components.", marks: null, file: "documents/progress-presentation-2.pdf", linkLabel: "View presentation" },
     { id: "draft-thesis", title: "Draft thesis submission", date: "11 October 2026", startDate: "2026-10-11", endDate: "2026-10-11", group: "October", description: "Submit the draft thesis for review, covering research methods, implementation, evaluation, and conclusions.", marks: null },
     { id: "website", title: "Website submission", date: "11 October 2026", startDate: "2026-10-11", endDate: "2026-10-11", group: "October", description: "Submit the research website presenting the project domain, milestones, documents, presentations, and team.", marks: null },
     { id: "final-checklist", title: "Final checklist submission", date: "14 October 2026", startDate: "2026-10-14", endDate: "2026-10-14", group: "October", description: "Submit the final checklist and required evidence for the completed research work.", marks: null },
@@ -60,13 +60,17 @@ window.SITE_CONTENT = {
     { id: "publication-evidence", title: "Research paper publication evidence", date: "1 December 2026", startDate: "2026-12-01", endDate: "2026-12-01", group: "December", description: "Submit the required evidence of research paper publication.", marks: null }
   ],
   documents: [
+    { title: "Topic Assessment", subtitle: "Approved research topic & scope", category: "PROJECT", file: "documents/topic-assessment.pdf", date: "January 2026" },
     { title: "Dispatch Optimization", subtitle: "Individual project proposal", author: "Janukshan Sivakumar", category: "PROPOSAL", file: "documents/proposal-dispatch.pdf", date: "March 2026" },
     { title: "Geo-Intelligence", subtitle: "Individual project proposal", author: "Mohomed Asath", category: "PROPOSAL", file: "documents/proposal-geo-intelligence.pdf", date: "March 2026" },
     { title: "Predictive Maintenance", subtitle: "Individual project proposal", author: "Samudith Tharindaka", category: "PROPOSAL", file: "documents/proposal-predictive-maintenance.pdf", date: "March 2026" },
     { title: "3D Accident Claims", subtitle: "Individual project proposal", author: "Dilnuk De Silva", category: "PROPOSAL", file: "documents/proposal-claims-privacy.pdf", date: "March 2026" },
     { title: "Project Charter", subtitle: "Group document", category: "PROJECT", file: null },
     { title: "Checklist Documents", subtitle: "Assessment checklists I–IV", category: "PROJECT", file: null },
-    { title: "Research Paper", subtitle: "Research findings & contributions", category: "PUBLICATION", file: null },
+    { title: "UADO: Uncertainty-Aware Dispatch Optimization", subtitle: "Research paper · expected-cost dispatch with Bayesian feedback", author: "Janukshan Sivakumar", category: "RESEARCH PAPER", file: "documents/paper-uado-dispatch.pdf", date: "October 2026" },
+    { title: "Gaussian Splatting for Fraud-Resistant 3D Vehicle Reconstruction", subtitle: "Research paper · Sri Lankan motor insurance claims", author: "Dilnuk De Silva", category: "RESEARCH PAPER", file: "documents/paper-3d-gaussian-splatting.pdf", date: "October 2026" },
+    { title: "Geo-Intelligence Research Paper", subtitle: "Traffic impact scoring & hotspot analysis", author: "Mohomed Asath", category: "RESEARCH PAPER", file: null },
+    { title: "Predictive Maintenance Research Paper", subtitle: "Component health & remaining useful life", author: "Samudith Tharindaka", category: "RESEARCH PAPER", file: null },
     { title: "Final Group Report", subtitle: "Integrated project report", category: "FINAL REPORT", file: null },
     { title: "Final Individual Reports", subtitle: "Four component reports", category: "FINAL REPORT", file: null },
     { title: "Research Poster", subtitle: "Project overview & findings", category: "POSTER", file: null }
@@ -74,7 +78,7 @@ window.SITE_CONTENT = {
   presentations: [
     { title: "Project Proposal", subtitle: "Research direction & proposed solution", date: "March 2026", file: "documents/proposal-presentation.pdf", slides: 30 },
     { title: "Progress Presentation I", subtitle: "Prototype development & early feedback", date: "May 2026", file: "documents/progress-presentation-1.pdf", slides: 24 },
-    { title: "Progress Presentation II", subtitle: "Integration & evaluation", file: null },
+    { title: "Progress Presentation II", subtitle: "Integration & evaluation", date: "September 2026", file: "documents/progress-presentation-2.pdf", slides: 14 },
     { title: "Final Presentation", subtitle: "The complete research journey", file: null }
   ],
   team: [
