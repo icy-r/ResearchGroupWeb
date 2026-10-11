@@ -1,0 +1,13 @@
+website.zip
+preview-*.png
+preview-*.jpg
+
+# Local dependencies, configuration, and generated files
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+dist/
+tmp/
