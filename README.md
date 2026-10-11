@@ -51,7 +51,7 @@ The header, overview, supervisors, contact location, and footer are in **`index.
 - Project charter, completed checklists, geo-intelligence and predictive-maintenance research papers, approved final reports, poster, and final presentation.
 - Final evaluation results, supervisor portraits, optional demo video, and any app-store links.
 
-Pending materials are marked as coming soon. Final reports should be linked after they are reviewed and ready for sharing.
+Pending materials are not listed; add them to `content.js` once the file exists. Final reports should be linked after they are reviewed and ready for sharing.
 
 ## Source materials and asset credits
 
