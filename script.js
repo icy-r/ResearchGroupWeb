@@ -126,7 +126,7 @@
     $("#empty-documents").hidden = documents.length !== 0;
     $("#document-grid").innerHTML = documents.map(item => {
       const file = safeLink(item.file);
-      return `<article class="document-card ${file ? "" : "pending"}"><div class="document-card-top"><span class="file-icon">${icon("file")}</span><span class="document-category">${escapeHTML(item.category)}</span></div><div class="document-card-body"><h3>${escapeHTML(item.title)}</h3><p>${escapeHTML(item.subtitle)}</p>${item.author ? `<div class="document-author">${escapeHTML(item.author)}</div>` : ""}</div><div class="document-card-bottom"><span>${escapeHTML(item.date || "To be added")}</span>${file ? `<a href="${file}" download aria-label="Download ${escapeHTML(item.title)} PDF">Download PDF ${icon("down")}</a>` : '<span class="coming-soon">Coming soon</span>'}</div></article>`;
+      return `<article class="document-card ${file ? "" : "pending"}"><div class="document-card-top"><span class="file-icon">${icon("file")}</span><span class="document-category">${escapeHTML(item.category)}</span></div><div class="document-card-body"><h3>${escapeHTML(item.title)}</h3><p>${escapeHTML(item.subtitle)}</p>${item.author ? `<div class="document-author">${escapeHTML(item.author)}</div>` : ""}</div><div class="document-card-bottom"><span>${escapeHTML(item.date || "To be added")}</span>${file ? `<a href="${file}" target="_blank" rel="noopener" aria-label="View ${escapeHTML(item.title)} PDF (opens in a new tab)">View PDF ${icon("up-right")}</a>` : '<span class="coming-soon">Coming soon</span>'}</div></article>`;
     }).join("");
   };
   renderDocuments();
