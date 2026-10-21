@@ -34,3 +34,4 @@ dialog{width:min(660px,calc(100% - 32px));border:1px solid #e0e4dc;border-radius
 @media(max-width:640px){.feedback-block{grid-template-columns:1fr;gap:24px}.feedback-video{max-width:300px;margin:0 auto}}
 .document-card,.presentation-card{position:relative}
 .document-card-bottom a::after{content:"";position:absolute;inset:0;border-radius:inherit}
+img.initials{width:64px;height:64px;object-fit:cover;background:none}

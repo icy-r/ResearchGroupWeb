@@ -75,7 +75,8 @@ window.SITE_CONTENT = {
   presentations: [
     { title: "Project Proposal", subtitle: "Research direction & proposed solution", date: "March 2026", file: "documents/proposal-presentation.pdf", slides: 30 },
     { title: "Progress Presentation I", subtitle: "Prototype development & early feedback", date: "May 2026", file: "documents/progress-presentation-1.pdf", slides: 24 },
-    { title: "Progress Presentation II", subtitle: "Integration & evaluation", date: "September 2026", file: "documents/progress-presentation-2.pdf", slides: 14 }
+    { title: "Progress Presentation II", subtitle: "Integration & evaluation", date: "September 2026", file: "documents/progress-presentation-2.pdf", slides: 14 },
+    { title: "Final Presentation", subtitle: "Results, validation & real-world readiness", date: "October 2026", file: "documents/final-presentation.pdf", slides: 25 }
   ],
   team: [
     { name: "Janukshan Sivakumar", id: "IT22635266", component: "Dispatch Optimization & Smart Recovery", photo: "assets/janukshan.png", number: "01", email: null },
