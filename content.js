@@ -69,6 +69,8 @@ window.SITE_CONTENT = {
     { title: "3D Accident Claims", subtitle: "Individual project proposal", author: "Dilnuk De Silva", category: "PROPOSAL", file: "documents/proposal-claims-privacy.pdf", date: "March 2026" },
     { title: "UADO: Uncertainty-Aware Dispatch Optimization", subtitle: "Research paper · expected-cost dispatch with Bayesian feedback", author: "Janukshan Sivakumar", category: "RESEARCH PAPER", file: "documents/paper-uado-dispatch.pdf", date: "October 2026" },
     { title: "Gaussian Splatting for Fraud-Resistant 3D Vehicle Reconstruction", subtitle: "Research paper · Sri Lankan motor insurance claims", author: "Dilnuk De Silva", category: "RESEARCH PAPER", file: "documents/paper-3d-gaussian-splatting.pdf", date: "October 2026" },
+    { title: "Geo-Intelligence & Traffic Impact Analysis", subtitle: "Individual thesis · final submission", author: "Mohamed Asath", category: "THESIS", file: "documents/thesis-geo-intelligence.pdf", date: "October 2026" },
+    { title: "Geo-Intelligence validation evidence", subtitle: "Accuracy results, how each test was run, stakeholder sessions", author: "Mohamed Asath", category: "VALIDATION", file: "documents/validation-geo-intelligence.pdf", date: "October 2026" },
   ],
   presentations: [
     { title: "Project Proposal", subtitle: "Research direction & proposed solution", date: "March 2026", file: "documents/proposal-presentation.pdf", slides: 30 },
