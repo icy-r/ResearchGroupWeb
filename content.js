@@ -85,7 +85,7 @@ window.SITE_CONTENT = {
   team: [
     { name: "Janukshan Sivakumar", id: "IT22635266", component: "Dispatch Optimization & Smart Recovery", photo: "assets/janukshan.png", number: "01", email: "sjanukshan9825@gmail.com", github: "https://github.com/JanukshanS", linkedin: "https://www.linkedin.com/in/janukshansivakumar/" },
     { name: "Mohamed Asath", id: "IT22633422", component: "Geo-Intelligence & Traffic Impact Analysis", photo: "assets/asath.png", number: "02", email: "asath12882@gmail.com", github: "https://github.com/icy-r", linkedin: "https://www.linkedin.com/in/mohamad-asath" },
-    { name: "Samudith Tharindaka", id: "IT22639776", component: "Predictive Maintenance for Service Management", photo: "assets/samudith.jpg", number: "03", email: "samudiththarindaka@gmail.com", github: "https://github.com/samudithTharindaka" },
+    { name: "Samudith Tharindaka", id: "IT22639776", component: "Predictive Maintenance for Service Management", photo: "assets/samudith.jpg", number: "03", email: "samudiththarindaka@gmail.com", github: "https://github.com/samudithTharindaka", linkedin: "https://www.linkedin.com/in/samudith/" },
     { name: "Dilnuk De Silva", id: "IT22001252", component: "Intelligent 3D Accident Claim System", photo: "assets/dilnuk.png", number: "04", email: "Dilnukdesilva@gmail.com", github: "https://github.com/DilnukDeSilva", linkedin: "https://www.linkedin.com/in/dilnuk-de-silva" }
   ]
 };
