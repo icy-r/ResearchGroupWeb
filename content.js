@@ -72,6 +72,9 @@ window.SITE_CONTENT = {
     { title: "Gaussian Splatting for Fraud-Resistant 3D Vehicle Reconstruction", subtitle: "Research paper · Sri Lankan motor insurance claims", author: "Dilnuk De Silva", category: "RESEARCH PAPER", file: "documents/paper-3d-gaussian-splatting.pdf", date: "October 2026" },
     { title: "Geo-Intelligence & Traffic Impact Analysis", subtitle: "Individual thesis · final submission", author: "Mohamed Asath", category: "THESIS", file: "documents/thesis-geo-intelligence.pdf", date: "October 2026" },
     { title: "Geo-Intelligence validation evidence", subtitle: "Accuracy results, how each test was run, stakeholder sessions", author: "Mohamed Asath", category: "VALIDATION", file: "documents/validation-geo-intelligence.pdf", date: "October 2026" },
+    { title: "Checklist 1 · Source code", subtitle: "GitHub repository for the full Kaduna.lk platform", category: "CHECKLIST", file: "https://github.com/JanukshanS/R26-SE-026", linkLabel: "Open repository", date: "October 2026" },
+    { title: "Checklist 2 · Supporting records", subtitle: "Checklist evidence folder (SharePoint)", category: "CHECKLIST", file: "https://mysliit-my.sharepoint.com/:f:/g/personal/it22635266_my_sliit_lk/IgDcAIWV4qfTQouh3wAjmXeNAaa2u4lcLrvAalipkJc9Asw?e=raVJU8", linkLabel: "Open folder", date: "October 2026" },
+    { title: "Checklist 3 · Deployment report", subtitle: "How the platform is deployed, hosted and operated", category: "CHECKLIST", file: "documents/deployment-report.pdf", date: "October 2026" },
   ],
   presentations: [
     { title: "Project Proposal", subtitle: "Research direction & proposed solution", date: "March 2026", file: "documents/proposal-presentation.pdf", slides: 30 },
@@ -80,9 +83,9 @@ window.SITE_CONTENT = {
     { title: "Final Presentation", subtitle: "Results, validation & real-world readiness", date: "October 2026", file: "documents/final-presentation.pdf", slides: 25 }
   ],
   team: [
-    { name: "Janukshan Sivakumar", id: "IT22635266", component: "Dispatch Optimization & Smart Recovery", photo: "assets/janukshan.png", number: "01", email: null },
-    { name: "Mohamed Asath", id: "IT22633422", component: "Geo-Intelligence & Traffic Impact Analysis", photo: "assets/asath.png", number: "02", email: null },
-    { name: "Samudith Tharindaka", id: "IT22639776", component: "Predictive Maintenance for Service Management", photo: "assets/samudith.jpg", number: "03", email: null },
-    { name: "Dilnuk De Silva", id: "IT22001252", component: "Intelligent 3D Accident Claim System", photo: "assets/dilnuk.png", number: "04", email: null }
+    { name: "Janukshan Sivakumar", id: "IT22635266", component: "Dispatch Optimization & Smart Recovery", photo: "assets/janukshan.png", number: "01", email: "sjanukshan9825@gmail.com", github: "https://github.com/JanukshanS", linkedin: "https://www.linkedin.com/in/janukshansivakumar/" },
+    { name: "Mohamed Asath", id: "IT22633422", component: "Geo-Intelligence & Traffic Impact Analysis", photo: "assets/asath.png", number: "02", email: "asath12882@gmail.com", github: "https://github.com/icy-r", linkedin: "https://www.linkedin.com/in/mohamad-asath" },
+    { name: "Samudith Tharindaka", id: "IT22639776", component: "Predictive Maintenance for Service Management", photo: "assets/samudith.jpg", number: "03", email: "samudiththarindaka@gmail.com", github: "https://github.com/samudithTharindaka" },
+    { name: "Dilnuk De Silva", id: "IT22001252", component: "Intelligent 3D Accident Claim System", photo: "assets/dilnuk.png", number: "04", email: "Dilnukdesilva@gmail.com", github: "https://github.com/DilnukDeSilva", linkedin: "https://www.linkedin.com/in/dilnuk-de-silva" }
   ]
 };

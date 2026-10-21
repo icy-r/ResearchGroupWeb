@@ -35,3 +35,5 @@ dialog{width:min(660px,calc(100% - 32px));border:1px solid #e0e4dc;border-radius
 .document-card,.presentation-card{position:relative}
 .document-card-bottom a::after{content:"";position:absolute;inset:0;border-radius:inherit}
 img.initials{width:64px;height:64px;object-fit:cover;background:none}
+.team-links{display:flex;gap:14px;margin-top:8px;font-size:13px;font-weight:600}.team-links:empty{display:none}.team-links a{color:var(--orange-deep)}
+.supervisor-mail{display:block;font-size:13px;margin-top:3px;color:var(--orange-deep)}
